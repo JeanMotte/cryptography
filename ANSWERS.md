@@ -34,4 +34,4 @@ Entrez le mot de passe : secret123
 ■ Mot de passe correct
  -->
  - On stocke l'empreinte du mot de passe (généralement en base de données) ; et pas le mot de passe en clair, dans un souci de sécurité et de confidentialité des données utilisateur. Si le mot de passe est stocké en clair, les persones ayant accès à la base peuvent le lire (e.g. les développeurs). 
- - Une fuite de donnée ou un piratage peut avoir lieu, et donner l'accès à la base aux pirates. Si les pirates ont uniquement accès aux hash, alors il leur est très difficile voire impossible de retrouver le mot de passe original. Cela dépend de la robustesse de l'algorithme utilisé.
+ - Une fuite de donnée ou un piratage peut avoir lieu, et donner l'accès à la base aux pirates. Si les pirates ont uniquement accès aux hash, alors il leur est très difficile voire impossible de retrouver le mot de passe original. Cela dépend de la robustesse de l'algorithme utilisé. En revanche, si les mots de passe sont stockés en clair, alors les comptes des utilisateurs sont compromis.
